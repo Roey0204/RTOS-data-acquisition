@@ -23,7 +23,7 @@ Publishing Data: Once the sensor data is obtained, it is formatted into a messag
 
 Concurrent Operation: FreeRTOS is utilized to create separate tasks for WiFi connection handling, MQTT communication, and sensor data acquisition. This allows for concurrent execution of these tasks, ensuring that the WiFi module and sensor operate simultaneously without blocking each other.
 
-### Python Module for Subscribing: A Python module is developed to subscribe to the MQTT topic published by the ESP32. This enables users to easily monitor the published data from the ESP32 on their PCs.
+Python Module for Subscribing: A Python module is developed to subscribe to the MQTT topic published by the ESP32. This enables users to easily monitor the published data from the ESP32 on their PCs.
 
 ## Setup:
 Hardware Connections: Connect the DHT11 sensor to the ESP32 microcontroller according to the specified pin configuration.
